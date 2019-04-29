@@ -1,0 +1,30 @@
+{
+  "name": "CORE19-07_quiz_mvc_server",
+  "version": "1.0.0",
+  "description": "CORE19-07_quiz_mvc_server",
+  "main": "CORE19-07_quiz_mvc_server.js",
+  "scripts": {
+    "start": "node CORE19-07_quiz_mvc_server.js",
+    "checks": "node tests/launcher.js",
+    "zip": "node tests/compress.js CORE19-07_quiz_mvc_server"
+  },
+  "private": true,
+  "keywords": [
+    "CORE",
+    "QUIZ"
+  ],
+  "author": "ging",
+  "license": "Unlicense",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "fs-extra": "^6.0.1",
+    "archiver": "^3.0.0",
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "sequelize": "^4.32.7",
+    "sqlite3": "^4.0.4",
+    "express": "^4.0.0",
+    "zombie": "^6.1.2",
+    "method-override": "^3.0.0"
+  }
+}
